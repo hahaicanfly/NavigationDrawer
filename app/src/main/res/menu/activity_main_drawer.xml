@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/mm"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_WebView"
+            android:icon="@drawable/mm"
+            android:title="WebView" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/mm"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_Youtube"
+            android:icon="@drawable/mm"
+            android:title="Youtube" />
+
+        <item
+            android:id="@+id/nav_Login"
+            android:icon="@drawable/mm"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_Camera"
+            android:icon="@drawable/mm"
+            android:title="Camera" />
+
+    </group>
+
+    <item android:title="Sub_title">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/mm"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/mm"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/mm"
+                android:title="About"/>
+        </menu>
+    </item>
+
+</menu>
